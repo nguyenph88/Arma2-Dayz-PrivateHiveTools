@@ -1,0 +1,19 @@
+<?php
+/****************************
+PrivateHiveTools by Nightmare
+http://n8m4re.de
+*****************************/
+$MAP['name'] 		= 'sauerland';
+$MAP['locations'] 	= '[{"latte":"-79.71860546904043","lange":"-11.524658203125","label":"Heidermuehle"},{"latte":"-83.35442759775091","lange":"-25.872802734375","label":"Old Airfield"},{"latte":"-84.32395623169465","lange":"-59.02954101562499","label":"Suederbarup"},{"latte":"-83.54491212570046","lange":"-148.941650390625","label":"Fahrenbrecht"},{"latte":"-77.42782352730109","lange":"-123.71704101562499","label":"Niedersalvey"},{"latte":"-78.24691262580767","lange":"-145.360107421875","label":"Rhaude"},{"latte":"-71.71198866923086","lange":"-155.093994140625","label":"Osterholz"},{"latte":"-49.02346146321411","lange":"-144.656982421875","label":"Uhlenbusch"},{"latte":"-50.792047064406844","lange":"-127.90283203125","label":"Felsenmeer"},{"latte":"-46.800059446787294","lange":"-95.504150390625","label":"Schmallenberg"},{"latte":"-51.041393898126366","lange":"-79.837646484375","label":"Schueren"},{"latte":"-77.22536023894715","lange":"-66.697998046875","label":"Oberndorf"},{"latte":"-80.56814687777681","lange":"-79.046630859375","label":"Fernsehturm"},{"latte":"-70.0880468606124","lange":"-28.004150390625","label":"Buersfeld"},{"latte":"-62.155240711732425","lange":"-2.7575683593749996","label":"Remblingenhausen"},{"latte":"-67.93339672357513","lange":"20.687255859375","label":"Hoeinghausen"},{"latte":"-74.86215220305222","lange":"37.562255859375","label":"Reine"},{"latte":"-54.05938788662358","lange":"33.81591796875","label":"Moosbach"},{"latte":"-53.488045536056205","lange":"14.425048828125","label":"Berghausen"},{"latte":"-43.99281450048989","lange":"-6.427001953125","label":"Heggen"},{"latte":"-19.973348786110602","lange":"20.313720703125","label":"Niedernbergbach"},{"latte":"-6.380812331938274","lange":"38.79272460937499","label":"Oberbergbach"},{"latte":"-32.65787573695528","lange":"-25.938720703125","label":"Seedorf"},{"latte":"-21.350781150679722","lange":"-22.708740234375","label":"Meschede"},{"latte":"-10.962764256386809","lange":"-41.143798828125","label":"Wenden Airfield"},{"latte":"-22.836945920943844","lange":"-72.53173828125","label":"Ihren"},{"latte":"-7.231698708367139","lange":"-91.417236328125","label":"Ihrhofen"},{"latte":"23.885837699862005","lange":"-105.523681640625","label":"Oeventrop"},{"latte":"-25.79989118208832","lange":"-125.255126953125","label":"Garbow"},{"latte":"-4.412136788910181","lange":"-148.304443359375","label":"Strelingen"},{"latte":"3.9738609758391017","lange":"-164.454345703125","label":"Gutshof Kalaba"},{"latte":"6.096859818887948","lange":"-159.752197265625","label":"Saegewerk"},{"latte":"27.46928747369202","lange":"-178.319091796875","label":"Burg Schwarzfels"},{"latte":"30.996445897426373","lange":"-169.310302734375","label":"Nordern"},{"latte":"34.994003757575776","lange":"-165.245361328125","label":"Arnsberg"},{"latte":"44.902577996288876","lange":"-176.253662109375","label":"Klein Sodenau"},{"latte":"21.963424936844223","lange":"-9.700927734375","label":"Berghoven"},{"latte":"23.443088931121785","lange":"-26.619873046875","label":"Grossenfelde"},{"latte":"-37.387617499783936","lange":"-27.542724609375","label":"Kaserne"}]';
+$MAP['size'] 		= 21337;
+$MAP['var']			= 11431;
+$MAP['div']			= 83.5;
+$MAP['gpsX']		= 'pixel / ' . $MAP['div'];
+$MAP['gpsY']		= '( pixel - ' . $MAP['var']  . ' ) / ' . $MAP['div'];
+$MAP['limitGPSX']	= 213;
+$MAP['limitGPSY']	= 0;
+$MAP['minZoom']		= 1;
+$MAP['maxZoom']		= 7;
+$MAP['setView']		= '[-60,-60],2';
+$MAP['markerY']     = ( $MAP['size'] + $MAP['var'] ) . '- markerY';
+$MAP['markerX']     = 'markerX';

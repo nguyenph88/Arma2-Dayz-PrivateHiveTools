@@ -1,0 +1,21 @@
+Options -Indexes
+
+<Files ~ "\.(sqlite)$">
+	Order allow,deny
+	deny from all
+</Files>
+
+<Files .htaccess>
+	Order deny,allow
+	deny from all
+</Files>
+
+<FilesMatch "\.php$">
+	Order deny,allow
+	deny from all
+</FilesMatch>
+
+<FilesMatch "^(index|setup|ajax|getFont)\.php$">
+	Order allow,deny
+	allow from all
+</FilesMatch>
